@@ -1,0 +1,1 @@
+# Brasil_Paralelo_An-lise
