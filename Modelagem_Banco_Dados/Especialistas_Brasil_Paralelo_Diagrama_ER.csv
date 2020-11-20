@@ -1,0 +1,29 @@
+Id,Nome,Biblioteca de formas,ID da p´ágina,Contido por,Grupo,Origem da linha,Destino da linha,Seta de origem,Seta de destino,Área de texto 1,Área de texto 2,Área de texto 3,Área de texto 4,Área de texto 5,Área de texto 6,Área de texto 7,Área de texto 8,Área de texto 9,Área de texto 10,Área de texto 11,Área de texto 12,Área de texto 13,Área de texto 14,Área de texto 15,Área de texto 16,Área de texto 17,Área de texto 18,Área de texto 19,Área de texto 20,Área de texto 21,Área de texto 22
+1,Página,,,,,,,,,Diagrama ER de banco de dados (pé de galinha),,,,,,,,,,,,,,,,,,,,,
+2,Texto,Padrão,1,,18,,,,,Especialistas_Brasil_Paralelo_Diagrama_ER,,,,,,,,,,,,,,,,,,,,,
+3,Texto,Padrão,1,,18,,,,,"Karine Rodrigues Firmino   |  November 20, 2020",,,,,,,,,,,,,,,,,,,,,
+4,Contêiner retangular,Formas de Fluxograma,1,,19,,,,,,,,,,,,,,,,,,,,,,,,,,
+5,Texto,Padrão,1,4,19,,,,,Veja como editar formas de diagramas ER,,,,,,,,,,,,,,,,,,,,,
+6,Texto,Padrão,1,4,19,,,,,"O diagrama entidade-relacionamento (ER) mostra como 'entidades', como pessoas, objetos ou conceitos, se relacionam entre si dentro de um sistema. A cardinalidade, em forma de pé de galinha, define os atributos numéricos do relacionamento entre duas entidades ou conjuntos de entidades.
+
+Para personalizar este diagrama ER manualmente:
+Clique duas vezes sobre um texto em uma forma de entidade e digite para adicionar/editar o texto.
+Adicione e remova formas de entidade conforme necessário.
+Adicione e remova linhas para exibir os relacionamentos entre as entidades.
+Para atualizar a cardinalidade, clique em uma linha e clique em 'Extremidade' na barra de propriedades na parte superior da tela de desenho.
+
+Para criar seu próprio diagrama ER automaticamente:
+Clique em 'Importar dados' na biblioteca de formas de entidade-relacionamento no lado esquerdo da tela de desenho.",,,,,,,,,,,,,,,,,,,,,
+7,Entidade,Entidade relacionamento,1,,,,,,,Especialistas,PK,ID_Especialista,INT,,Pertencimento Regional,VARCHAR,FK,Cod_Profissão,INT,FK,Cod_Formação,INT,FK,N da sequecia do documentário,INT,,Informações Complementares,VARCHAR,,Genero,VARCHAR
+8,Entidade,Entidade relacionamento,1,,,,,,,Documentários,PK,N da sequência do documentário,INT,,Título do documentário ,VARCHAR,,Tempo de fala,FLOAT,FK,ID_Especialista,INT,,,,,,,,,
+9,Entidade,Entidade relacionamento,1,,,,,,,Profissão ,PK,Cod_Profissão,INT,,Descrição ,VARCHAR,,,,,,,,,,,,,,,
+10,Entidade,Entidade relacionamento,1,,,,,,,Formação Acadêmica,PK,Cod_Formação ,INT,,Curso,VARCHAR,,Universidade,VARCHAR,FK,ID_Especialista,INT,,,,,,,,,
+11,Linha,,1,,18,2,2,None,None,,,,,,,,,,,,,,,,,,,,,,
+12,Linha,,1,,,8,7,CFN ERD One Or More Arrow,CFN ERD One Or More Arrow,,,,,,,,,,,,,,,,,,,,,,
+13,Linha,,1,,,7,10,CFN ERD One Or More Arrow,CFN ERD One Or More Arrow,,,,,,,,,,,,,,,,,,,,,,
+14,Linha,,1,,,7,9,CFN ERD One Or More Arrow,CFN ERD One Or More Arrow,,,,,,,,,,,,,,,,,,,,,,
+15,Linha,,1,,,7,8,CFN ERD One Or More Arrow,CFN ERD One Or More Arrow,,,,,,,,,,,,,,,,,,,,,,
+16,Linha,,1,,,7,10,CFN ERD One Or More Arrow,CFN ERD One Or More Arrow,,,,,,,,,,,,,,,,,,,,,,
+17,Linha,,1,,,7,8,CFN ERD One Arrow,CFN ERD One Or More Arrow,,,,,,,,,,,,,,,,,,,,,,
+18,Grupo 1,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+19,Grupo 2,,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,
