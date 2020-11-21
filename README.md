@@ -13,6 +13,10 @@ Na Pasta Modelagem Banco de Dados, colocamos as imagens preliminares, juntamente
 
 A preocupação com a modelagem de dados, evidentemente se deve à nossa preocupação com a integridade dos dados e do banco de dados, para possibiliar análises precisas e sem problemas posteriores à implementação física "definitiva" do banco de dados. 
 
+Uma prévia dessa implementação física do Banco de Dados está no arquivo "sql1", em que utilizamos o "DB Browser for SQLite".
+
+O arquivo "Proj-BrasilParalelo.ui" é um arquivo do Qt5 Designer (ainda incompleto). Diz respeito à uma interface gráfica para a inclusão de dados ao Banco de Dados. 
+
 Na pasta das "Tabelas", sejam elas em formato odt, docx ou csv, há um arquivo com a extensão .py (Script Python) para realizar a criação dos gráficos, com base nas tabelas colocadas, ou outra tabela (caso haja o interesse para reutilização do código). 
 
 *http://www2.cs.uregina.ca/~bernatja/crowsfoot.html
